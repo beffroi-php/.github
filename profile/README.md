@@ -1,6 +1,4 @@
-# beffroi-php
-
-**An OpenID Connect provider that installs like a Symfony bundle.**
+# An OpenID Connect provider that installs like a Symfony bundle
 
 Your application already has users, a database, a login page and a deployment. What it does not have is the piece that speaks OAuth 2.0 and OpenID Connect to everything else, and the usual answer is a second stack to run: Keycloak, Auth0, Entra. This is that piece, in PHP, deployed with your application, with your users in your database and your login page in Twig.
 
