@@ -17,7 +17,7 @@ All of it is MIT. What is not open is what *operates* instances rather than what
 
 ## What we hold ourselves to
 
-**Secure by default, with no way to do it wrong.** PKCE `S256` required, no implicit flow, no password grant, exact redirect URI match, an `iss` in every authorization response, tokens a resource server can tell apart. There is no `insecure_*` option to copy from a tutorial: where an exception is unavoidable it is named, carried by one client, and bounded.
+**Secure by default, with no way to do it wrong.** PKCE `S256` required, no implicit flow, no password grant, exact redirect URI match, an `iss` in every authorization response, `at+jwt` access tokens a resource server cannot mistake for another kind of token. There is no `insecure_*` option to copy from a tutorial: where an exception is unavoidable it is named, carried by one client, and bounded.
 
 **Conformance is proved by someone else.** The OpenID Foundation conformance suite runs in continuous integration, plan by plan, on every change. What is green is what a run says is green, on a date, with the run to open.
 
